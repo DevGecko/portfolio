@@ -1,2 +1,2 @@
 # My portfolio
-# Author's [DevGecko](https://github.com/DevGecko)
+# Author - [DevGecko](https://github.com/DevGecko)
