@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile FB</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/icons.css" />
+    <link rel="stylesheet" href="css/tooltip.css" />
+  </head>
+  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <div class="container">
+        <div class="profile">
+          <div class="profile-header">
+            <div class="profile-photo">
+              <img src="assets/avatar.bin" />
+            </div>
+          </div>
+          <div class="profile-body">
+            <span translate="no" class="profile-name">
+              DevGecko
+              <p tooltip="Verified Connection" class="check-mark"></p>
+            </span>
+          </div>
+          <div class="profile-card anim1" id="read-more">
+            <h6>ABOUT ME<i id="icon-more" class="fa fa-caret-down"></i></h6>
+            <div class="content">
+              <p>Hi, <a target="_blank" href="https://facebook.com/DevGecko">I'm</a> a programmer based in Vietnam<span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+            </div>
+          </div>
+          <div class="profile-card anim2">
+            <h6>ROLES</h6>
+            <div class="roles" tooltip="Develops in Python">
+              <i class="fa fa-circle" style="color: #3672a4;"></i>
+              <span>Python Developer</span>
+            </div>
+            <div class="roles" tooltip="Develops in C++">
+              <i class="fa fa-circle" style="color: #f24b7c;"></i>
+              <span>C++ Developer</span>
+            </div>
+            <div class="roles" tooltip="Creates websites & web applications">
+              <i class="fa fa-circle" style="color: #553e7c;"></i>
+              <span>Website Developer</span>
+            </div>
+            <div class="roles" tooltip="Works on both frontend & backend">
+              <i class="fa fa-circle" style="color: #f1e05b;"></i>
+              <span>Fullstack Developer</span>
+            </div>
+            <div class="roles" tooltip="Des user interface & user experience">
+              <i class="fa fa-circle" style="color: #e74c3c;"></i>
+              <span>UI/UX Designer</span>
+            </div>
+          </div>
+          <div class="profile-card anim3">
+            <h6>PROJECTS</h6>
+            <div translate="no" class="projects">
+              <div class="project-head">
+                <a target="_blank" href="https://github.com/DevGecko/Image2ASCII">Image2ASCII</a>
+                <span tooltip="Open source">Public</span>
+              </div>
+              <div class="project-body">
+                <i class="fa fa-link"></i>
+                <a target="_blank" href="https://devgecko.github.io/Image2ASCII/">devgecko.github.io/image2ascii</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div id="reminder">NOTE: THIS SITE IS DESIGNED FOR MOBILE.</div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
